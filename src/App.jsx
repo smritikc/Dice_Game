@@ -8,10 +8,11 @@ import './App.css'
 
 
 
+
 function App() {
-const [isGameStarted,setIsGameStarted]=useState(true);
+const [isGameStarted,setIsGameStarted]=useState(false);
 const toggleGamePlay=()=>{
-setIsGameStarted(!isGameStarted);
+setIsGameStarted((prev)=>!prev);
 
 }
 
