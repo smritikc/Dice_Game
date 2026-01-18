@@ -7,7 +7,15 @@ const Rules = () => {
         <h2>How to play dice game</h2>
         <div className='text'>
             <p>Select any number</p>
-            <p>thn click dice</p>
+            <p>then click dice</p>
+            <p><h3>Win Condition:</h3> Your selected number matches the random number
+
+<p>Reward: Random number value added to your score</p>
+
+ </p>
+ <p><h3>Lose Condition:</h3> Your selected number does NOT match the random number
+
+<p>Penalty: 2 points deducted from your score</p></p>
         </div>
     </RulesContainer>
   )
